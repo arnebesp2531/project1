@@ -1,1 +1,81 @@
-this is a test
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            html, body, #root {
+                height: 100%;
+            }
+
+            body {
+                margin:0;
+            }
+            #root {
+                display: flex;
+                flex-direction: column;
+            }
+        
+            #chester {
+                flex-grow: 1;
+                display: flex;
+                flex-direction: row;
+            }
+        
+            #left-arm {
+                background-color: teal;
+                flex-basis: 100px;
+            }
+
+            #right-arm {
+                background-color: teal;
+                flex-basis: 100px;
+            }
+
+            #torso {
+                background-color: silver;
+                flex-grow: 1;
+            }
+
+            header {
+                background-color: firebrick;
+                height: 60px;
+            }
+
+            footer {
+                background-color: firebrick;
+                height: 30px;
+            }
+        
+            #button-root {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root">
+            <header>
+                <ul id="button-root">
+                    <li><div id="button">Home</div></li>
+                    <li><div id="button">About</div></li>
+                    <li><div id="button">Videos</div></li>
+                    <li><div id="button">Contact</div></li>
+                    <li><div id="button">Book Us</div></li>
+                </ul>
+
+
+            </header>
+            <div id="chester">
+                <div id="left-arm">left</div>
+                <div id="torso">torso</div>
+                <div id="right-arm">right</div>
+            </div>
+            <footer>footer</footer>
+
+        </div>
+
+    </body>
+
+</html>
