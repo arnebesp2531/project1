@@ -2,12 +2,137 @@
 <html>
     <head>
         <title>Videos</title>
+        <link href="stylesheet.css" rel="stylesheet">
+        <style>
+            
+        
+            .video-cards {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: center;
+                align-items: baseline;
+            }
+            
+            .card {
+                width: 500px;
+                background-color: whitesmoke;
+                box-shadow: 0 4px 8px 0 black;
+                border: 10px solid darkcyan;
+                margin: 20px;
+                border-radius: 10px;
+            }
+            
+            .video-description {
+                padding: 0 10px;
+            }
+            iframe {
+                width: 500px;
+                height: 281.25px;
+                
+            }
+
+
+        </style>
     </head>
     <body>
-        <h1>Videos of CJ & the Boys</h1>
-        <p>This site will have 2 columns of videos with brief explanations on the side. Videos will be linked from youtube and will hopefully include in-browser playback options.</p>
+
+        <div class="navbar">
+            <div class="page-title">
+                <h1>CJ & the Boys</h1>
+            </div>
+        
+            <ul class = "buttons">
+                <li>
+                    <a href="https://cjatb.duckdns.org:8443/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="https://cjatb.duckdns.org:8443/about.html">About Us</a>
+                </li>
+                <li>
+                    <a class="active" href="https://cjatb.duckdns.org:8443/videos.html">Videos</a>
+                </li>
+                <li>
+                    <a href="https://cjatb.duckdns.org:8443/contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="https://cjatb.duckdns.org:8443/booking.html">Book Us</a>
+                </li>
+            </ul>   
+            
+        </div>
+        
+            <p>This site will have 2 columns of videos with brief explanations on the side. Videos will be linked from youtube and will hopefully include in-browser playback options.</p>
 
 
+            <div class="video-cards">
+                <div class="card">
+                        <iframe src="https://www.youtube.com/embed/RRIeOkOm0IM?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="video-description">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio provident iste saepe voluptate numquam consectetur, nam velit, eligendi enim commodi impedit? Deleniti nulla soluta laborum est facilis fugiat? Rerum, amet.</p>
+                                <p>Sunt eligendi totam, similique enim ducimus fugiat nobis odio blanditiis minus id dolorem quidem qui iusto rem fuga culpa delectus neque ad at nam sapiente recusandae ipsa? Quis, nobis dicta!</p>
+                        </div>
+                </div>
+
+                <div class="card">
+                        <iframe src="https://www.youtube.com/embed/7aB7IRDp7WU?start=61" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="video-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, libero inventore suscipit consequuntur rerum, blanditiis laborum corrupti illum maxime at qui quidem fuga quaerat sed, aliquid itaque porro ratione tenetur!</p>
+                            <p>Repudiandae labore nemo ullam rem eveniet culpa quis laudantium est sequi obcaecati perferendis non, quibusdam dolores quia, omnis odit veniam odio maxime accusantium harum iste eaque commodi. Quibusdam, obcaecati blanditiis!</p>
+                        </div>
+                </div>
+
+                <div class="card">
+                        <iframe src="https://www.youtube.com/embed/OyPFZpQt8Zg?start=25" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="video-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, laudantium quisquam! Dolores aperiam porro natus minima nostrum totam esse rem laudantium reiciendis atque dicta sunt officiis molestias, corrupti et quam.</p>
+                            <p>Magnam consectetur voluptatibus officiis quae quis facere dicta molestias, esse quam laudantium suscipit odit quidem alias obcaecati perferendis quo sed, aliquid necessitatibus nisi velit ipsam corporis illum quod! Veniam, odit.</p>
+                        </div>
+                </div>
+
+                <div class="card">
+                        <iframe src="https://www.youtube.com/embed/267kggeo7cQ?start=38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="video-description">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis asperiores, laborum est earum maiores eos. Corporis tempore sed quia iusto quaerat omnis dolorem deleniti, natus voluptate magnam? Fugit, quis officia!</p>
+                            <p>Illum, dicta. Unde ab eligendi voluptates voluptatum dolorem laborum adipisci sapiente sit voluptatibus debitis consectetur quod, exercitationem temporibus similique veniam maxime eum maiores fuga fugit doloremque magni earum. Quod, explicabo.</p>
+                        </div>
+                </div>
+            
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/5a2oB9rYa1s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-description">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio modi expedita, quidem consectetur tenetur molestiae totam ipsum nostrum fuga similique eos dolorum. Pariatur, fugiat libero! Nam culpa quo molestiae sit.</p>
+                        <p>Voluptates, perferendis. Vitae debitis aliquam modi, cumque asperiores, quia facilis quaerat, hic dolores facere sit quam ipsa natus eligendi ullam maiores iusto esse error? Inventore provident reprehenderit ipsam rem nisi.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/TOo7defMjpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-description">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, ab tempore. Aliquid magnam ex voluptatum omnis error, corporis voluptatem nisi molestiae natus nihil voluptatibus dignissimos vitae, labore dolorem tempore. Sequi.</p>
+                        <p>Labore modi eum aliquam voluptatem illo mollitia error quidem dolor corporis ab iste maxime odit nesciunt voluptatum, accusantium tempore. Delectus tenetur quod eum autem. Excepturi rem numquam debitis quod ab.</p>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/Gm_4x-qR3QU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-description">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque explicabo error delectus odit dolorem excepturi, rem incidunt atque asperiores inventore provident, harum nemo ad. Magnam architecto deserunt odit iure assumenda.</p>
+                        <p>Quam numquam adipisci ea totam maxime nostrum ipsam vero explicabo quis! Fugit necessitatibus nostrum, enim, facilis quae possimus porro excepturi eos delectus repudiandae molestias autem, nisi similique? Sapiente, optio mollitia.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/QyTdChy32OY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-description">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, vitae velit impedit ipsa, necessitatibus illum voluptatibus iure vero earum quisquam facilis modi consequatur ab amet? Aspernatur praesentium voluptate facere consequuntur?</p>
+                        <p>Voluptate libero nulla aliquam itaque, quos esse modi doloremque adipisci est possimus harum quaerat accusamus repellendus animi architecto dolorem iste repellat pariatur quasi porro neque. Impedit fugiat officiis consequuntur quo!</p>
+                    </div>
+                </div>
+
+
+
+            </div>
 
 
     </body>
