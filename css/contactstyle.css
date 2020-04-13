@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.facebook {
+    text-align: center;
+}

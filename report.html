@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Report</title>
-        <link href="stylesheet.css" rel="stylesheet">
+        <link href="css/stylesheet.css" rel="stylesheet">
         <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABERAAAAAAEAEAEAAAAAAQAQEQAAAAABABEQAAAAAAEAEBECIAIgAQAQAQIiIgERERERAgIiAAAAAAACIgIgAREBEQAiACARAQEBAiIgABAAAAECICIAEAAAAQAiIgARAQABAAAAAAERARERAAAAAAAAAAAAAAAAAAAAAAAADYfwAA238AANp/AADY/wAA2kwAANtBAAAAUQAA/8QAAMRmAACVQwAAv0kAAL9hAACXfwAAxB8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
         <style>
-            
-
-
+            p, h2, ol{
+                margin-left: 200px;
+                margin-right: 200px;
+            }
         </style>
     </head> 
     <body>
@@ -42,6 +43,14 @@
             <a href="https://cjatb.duckdns.org:8443/index.html">here </a>
             to bring you back to the home page. Otherwise, continue reading!
         </p>
+
+        <h2>Client Critique</h2>
+        <p>
+            The page overall did a very good job at depicting the band and being easy to navigate. It had all the features of a website I was expecting and was organized very well. The images and videos were from all of our major performances giving the viewer a wide perspective to see. There was a good balance of humor as well as intention to be personable to the viewer. The contact and book us pages are a little lacking in terms of content. The photos page could be organized in a more meaningful way, because right now it is just a bunch of random photos. The color scheme and theme were subdued and appealing. Certainly not distracting but they could be modernized a bit.
+
+            --Alex Mazur (of CJ & the Boys)
+        </p>
+
         <h2>Itemized Assignment Expectation Report</h2>
         <p>
             Your site must meet the following expectations:
@@ -75,20 +84,19 @@
                 </li>
                 <li>Your site must support distinct layouts for large and small screens. For instance, multicolumn layouts on large screens should be reduced to single column layouts on small screens. You are encouraged to implement separate layouts using CSS media queries.
                     <ul>
-                        <li>________________</li>
-                        <li>________________</li>
+                        <li>This website uses lots of flexbox layouts for pictures or video cards, so they resize with the window when it grows or shrinks.</li>
+                        <li>I did not sufficiently make the website responsive, and so some things would not appear clean on a mobile device such as the navigation bar. That is something I will work on in the future.</li>
                     </ul>
                 </li>
                 <li>Your site must maintain a coherent style across its pages. Global style rules must be placed in a shared stylesheet. Individual pages’ style rules must be placed in a separate stylesheets.
                     <ul>
-                        <li>There is a global stylesheet.css that is applied to each page on the site.</li>
-                        <li>________________</li>
+                        <li>There is a global stylesheet.css that is applied to each page on the site, and each page has its own style sheet in the same css directory.</li>
                     </ul>
                 </li>
                 <li>Your site must include images, and their alt attributes must adequately describe the image content to users of screen readers, user with images disabled, and webcrawlers.
                     <ul>
                         <li>There are many images in this site, all of either the whole band or the members involved.</li>
-                        <li>________________</li>
+                        <li>All images in the site are labelled with appropriate alt attributes.</li>
                     </ul>
                 </li>
                 <li>Each page must declare its favicon.
@@ -99,8 +107,8 @@
                 </li>
                 <li>Your site's non-HTML resources must be organized. Images must be placed in a directory named images. CSS files must be placed in a directory named css. JavaScript must be placed in a directory named js.
                     <ul>
-                        <li>________________</li>
-                        <li>________________</li>
+                        <li>I created an images folder, but I couldn't figure out how to have images in this directory and use them in other pages, so it's currently blank.</li>
+                        <li>All CSS files are in a directory names css, and there exists an images directory. </li>
                     </ul>
                 </li>
                 <li>Your site must not be built using any libraries or frameworks. Do not use Bootstrap, jQuery, React, Angular, Vue, or any other third-party tools. You may, however, reimplement the ideas you see in these third-party tools.
@@ -110,14 +118,13 @@
                 </li>
                 <li>Each page and stylesheet of your site must validate without any warnings or errors using the W3C’s HTML validator and CSS validator.
                     <ul>
-                        <li>________________</li>
-                        <li>________________</li>
+                        <li>All pages except the Videos and Contact page pass the HTML validator, and these only give errors because of the iFrame elements within. However, I chose to embed YouTube videos directly on my site, and I trust their embedding iFrame process more than my CSS skills, so I decided to leave the iFrames intact.</li>
                     </ul>
                 </li>
                 <li>Your site must be stored in a Git repository that you have shared with your instructor. On GitHub, GitLab, and Bitbucket, share with the user twodee.
                     <ul>
                         <li>This site is stored in the Git repository Project1 by user arnebesp2531, which was shared with Dr. Johnson via Slack message.</li>
-                        <li>________________</li>
+                        <li>I couldn't figure out how to share a Git repository with another user, so I'm really hoping that isn't a critical part of the process.</li>
                     </ul>
                 </li>
                 <li>The names of your files should be entirely lowercase and contain only alphanumeric characters.
@@ -137,8 +144,8 @@
                 </li>
                 <li>Your content should be neatly aligned. The axes should be clearly visible.
                     <ul>
-                        <li>________________</li>
-                        <li>________________</li>
+                        <li>The videos page consists of columns that have very strong axes of alignment, both vertically and horizontally. </li>
+                        <li>The other pages either have a similar structure or are centered on the page intentionally.</li>
                     </ul>
                 </li>
                 <li>Your site must use at least two different font faces. Headings are often rendered in a sans-serif font, and copy in a serif font.
@@ -148,32 +155,32 @@
                 </li>
                 <li>Your site must include at least one form (or informal collection of input elements). The form might submit data to a server or invoke some client-side JavaScript function that alters the page. The action is not specified.
                     <ul>
-                        <li>________________</li>
-                        <li>________________</li>
+                        <li>The Booking page of this site contains a form that would gather information pertinent to a potential gig for the band. Although it does not have a specified action yet, this form would be used to create a notification for the members of CJ&tB to let them know to follow up with the potential customer.</li>
                     </ul>
                 </li>
                 <li>Your site must include links to external sites. Clicking on external links must open a new tab or window rather than replace your page.
                     <ul>
                         <li>The About page includes links to https://www.luckychops.com/ and https://www.youngbloodbrassband.com/, and it opens in a new tab when they click the anchor link.</li>
-                        <li>________________</li>
                     </ul>
                 </li>
                 <li>Your source code must be readable, using conventional and consistent formatting and meaningful names for classes and IDs.
                     <ul>
-                        <li>________________</li>
-                        <li>________________</li>
+                        <li>In the html and CSS code, I believe that I used conventional formatting. I names classes and IDs in a way that I would understand what they were upon seeing them briefly.</li>
                     </ul>
                 </li>
                 <li>Your site must include at least one animation, powered either by CSS or JavaScript.
                     <ul>
-                        <li>________________</li>
-                        <li>________________</li>
+                        <li>I used CSS to create a hover color-changing effect when the user is hovering above the navigation bar. When they go away, the color returns back to the normal color of the button.</li>
                     </ul>
                 </li>
             </ol>
         </p>
-        <h2>Client Critique</h2>
-
+        <br><br><br>
+        <p>And of course, I must return the favor and leave you with an elegant haiku regarding my experiences with online schooling motivation, slight procrastination, and COVID-19 in general:<br>
+            <br>Aaah aaah aaah aaah aaah, <br>
+            Aaah aaah aaah aaah aaah aaah aaah, <br>
+            Aaah aaah aaah aaah AAAH.
+        </p>
     </body>
 
 </html>

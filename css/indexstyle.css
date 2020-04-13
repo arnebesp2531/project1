@@ -1,0 +1,27 @@
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+
+}
+.photos img {
+    width: auto;
+    height: 390px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 gray;
+    border-radius: 30px;
+    border: 3px solid darkcyan;
+}
+
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center;
+}
