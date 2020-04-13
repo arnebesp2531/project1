@@ -11,7 +11,7 @@ body {
 .page-title > h1 {
     margin: 0;
     padding: 0 10px 0 10px;
-    font-size: 36pt;
+    font-size: 36pt; 
     text-align: left;
     border-radius: 15px 15px 0 0;
     border: 1px solid white;
