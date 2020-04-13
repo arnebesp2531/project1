@@ -10,6 +10,10 @@
                 display: inline-block;
             }
 
+            form {
+                display: inline;
+
+            }
 
         </style>
     </head>
@@ -46,10 +50,10 @@
 
 
         <h1>How to book CJ & the Boys</h1>
-        <h3>We would be honored to play for your next event or special occasion. </h3>
         <p>CJ & the Boys has delighted audiences across the region, and you can request CJ & the Boys to play at your next event! Simply fill out the form below, and we will get back to you as soon as possible.</p>
         <p>(This is where I would insert a fillable form directly on the page)
-            <ul>
+            <form>
+
                 <li>Name: </li>         
                 <input id="name-input" type="text">
 
@@ -63,10 +67,17 @@
                 <li>Date of event: </li>
                 <input id="date-input" type="text">
 
-                <li>Requested approximate length of set: minutes </li>
+                <li>Start time of set: </li>
+                <input id="length-input" type="text">                
+                
+                <li>Estimated length of music requested </li>
                 <input id="length-input" type="text">
 
-            </ul>
+                <br></br>
+                <input id="submit-button" type="button" value="submit" disabled>
+            </form>
         </p>
+        <h3>We would be honored to play for your next event or special occasion. </h3>
+
     </body>
 </html>
