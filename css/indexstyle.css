@@ -8,8 +8,9 @@
 
 }
 .photos img {
-    width: auto;
-    height: 390px;
+    width: 40%;
+    height: 350px;
+    object-fit: cover;
     margin: 5px;
     box-shadow: 0 4px 8px 0 gray;
     border-radius: 30px;
